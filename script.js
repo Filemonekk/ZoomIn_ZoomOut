@@ -51,3 +51,5 @@ sizeUp.addEventListener('click', increase)
 sizeDown.addEventListener('click', decrease)
 colorBtn.addEventListener('click', colorChanger)
 fontBtn.addEventListener('click', fontCharger)
+
+//the font button doesn't work//
