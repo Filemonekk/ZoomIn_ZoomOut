@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Arvo|Baloo+Bhaina|Droid+Sans+Mono|Josefin+Slab|Lato|Roboto|Ubuntu|Volkhov');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -41,3 +43,4 @@ button:hover {
     color: #00ffae;
     box-shadow: 3px 3px 10px #00ffae;
 }
+
