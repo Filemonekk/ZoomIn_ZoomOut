@@ -29,20 +29,18 @@ const colorChanger = () => {
 };
 
 const fonts = [
-    "baloo-bhaina",
-    "josefin-slab",
-    "arvo",
-    "lato",
-    "volkhov",
-    "abril-fatface",
-    "ubuntu",
-    "roboto",
-    "droid-sans-mono",
-    "anton",
+    "Arvo",
+    "Lato",
+    "Volkhov",
+    "Abril Fatface",
+    "Ubuntu",
+    "Roboto",
+    "Droid Sans Mono",
+    "Anton"
 ];
-
-const fontCharger = (fonts) => {
-    const number = fonts[Math.floor(Math.random() * fonts.length)];
+  
+const fontCharger = () => {
+    let number = Math.floor(Math.random() * fonts.length);
     p.style.fontFamily = fonts[number]
 }
 
